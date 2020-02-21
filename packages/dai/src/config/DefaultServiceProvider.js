@@ -15,7 +15,6 @@ import NullLogger from '../utils/loggers/NullLogger';
 import PriceService from '../eth/PriceService';
 import SmartContractService from '../eth/SmartContractService';
 import TimerService from '../utils/TimerService';
-import TokenConversionService from '../eth/TokenConversionService';
 import TransactionManager from '../eth/TransactionManager';
 import Web3Service from '../eth/Web3Service';
 import { getSettings } from './index';
@@ -26,7 +25,6 @@ export const resolver = {
     allowance: 'AllowanceService',
     cache: 'CacheService',
     cdp: 'EthereumCdpService',
-    conversion: 'TokenConversionService',
     event: 'EventService',
     gas: 'GasService',
     log: 'ConsoleLogger',
@@ -76,7 +74,6 @@ export default class DefaultServiceProvider extends ServiceProvider {
         PriceService,
         SmartContractService,
         TimerService,
-        TokenConversionService,
         TransactionManager,
         Web3Service
       },
