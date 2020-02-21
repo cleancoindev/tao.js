@@ -1,7 +1,7 @@
 import Erc20Token from './Erc20Token';
 import { ETH, WETH, PETH } from '../Currency';
 import tracksTransactions from '../../utils/tracksTransactions';
-import contracts from '../../../contracts'
+import contracts from '../../../contracts';
 
 export default class WethToken extends Erc20Token {
   constructor(contract, web3Service, decimals) {
