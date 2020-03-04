@@ -15,7 +15,7 @@ export function contractInfo(network) {
   const addresses = addressMapping[network];
   return {
     // Tokens
-    [tokens.DAI]: [
+    [tokens.SAI]: [
       {
         version: 1,
         address: addresses.SAI,
@@ -56,36 +56,36 @@ export function contractInfo(network) {
     ],
 
     // SAI
-    [contracts.SAI_TOP]: [
-      { version: 1, address: addresses.TOP, abi: abis.daiV1.saiTop }
-    ],
-    [contracts.SAI_PIP]: [
-      { version: 1, address: addresses.PIP, abi: abis.dappHub.dsValue }
-    ],
-    [contracts.SAI_PEP]: [
-      { version: 1, address: addresses.PEP, abi: abis.dappHub.dsValue }
-    ],
-    [contracts.SAI_PIT]: [
-      { version: 1, address: addresses.PIT, abi: abis.daiV1.pit }
-    ],
-    [contracts.SAI_SIN]: [
-      { version: 1, address: addresses.SIN, abi: abis.general.erc20 }
-    ],
-    [contracts.SAI_DAD]: [
-      { version: 1, address: addresses.DAD, abi: abis.dappHub.dsGuard }
-    ],
-    [contracts.SAI_MOM]: [
-      { version: 1, address: addresses.MOM, abi: abis.daiV1.mom }
-    ],
-    [contracts.SAI_VOX]: [
-      { version: 1, address: addresses.VOX, abi: abis.daiV1.vox }
-    ],
-    [contracts.SAI_TAP]: [
-      { version: 1, address: addresses.TAP, abi: abis.daiV1.tap }
-    ],
-    [contracts.SAI_TUB]: [
-      { version: 1, address: addresses.TUB, abi: abis.daiV1.tub }
-    ],
+    // [contracts.SAI_TOP]: [
+    //   { version: 1, address: addresses.TOP, abi: abis.daiV1.saiTop }
+    // ],
+    // [contracts.SAI_PIP]: [
+    //   { version: 1, address: addresses.PIP, abi: abis.dappHub.dsValue }
+    // ],
+    // [contracts.SAI_PEP]: [
+    //   { version: 1, address: addresses.PEP, abi: abis.dappHub.dsValue }
+    // ],
+    // [contracts.SAI_PIT]: [
+    //   { version: 1, address: addresses.PIT, abi: abis.daiV1.pit }
+    // ],
+    // [contracts.SAI_SIN]: [
+    //   { version: 1, address: addresses.SIN, abi: abis.general.erc20 }
+    // ],
+    // [contracts.SAI_DAD]: [
+    //   { version: 1, address: addresses.DAD, abi: abis.dappHub.dsGuard }
+    // ],
+    // [contracts.SAI_MOM]: [
+    //   { version: 1, address: addresses.MOM, abi: abis.daiV1.mom }
+    // ],
+    // [contracts.SAI_VOX]: [
+    //   { version: 1, address: addresses.VOX, abi: abis.daiV1.vox }
+    // ],
+    // [contracts.SAI_TAP]: [
+    //   { version: 1, address: addresses.TAP, abi: abis.daiV1.tap }
+    // ],
+    // [contracts.SAI_TUB]: [
+    //   { version: 1, address: addresses.TUB, abi: abis.daiV1.tub }
+    // ],
 
     // Exchanges
     [contracts.MAKER_OTC]: [
@@ -106,13 +106,13 @@ export function contractInfo(network) {
     ],
 
     // Proxies
-    [contracts.SAI_PROXY]: [
-      {
-        version: 1,
-        address: addresses.SAI_PROXY,
-        abi: abis.proxies.saiProxy
-      }
-    ],
+    // [contracts.SAI_PROXY]: [
+    //   {
+    //     version: 1,
+    //     address: addresses.SAI_PROXY,
+    //     abi: abis.proxies.saiProxy
+    //   }
+    // ],
     [contracts.OASIS_PROXY]: [
       {
         version: 1,
