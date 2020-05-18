@@ -9,6 +9,7 @@ code on commit.
 ## Getting started
 
 ```
+nvm use 12
 yarn
 curl https://dapp.tools/install | sh // Installs dapptools
 yarn lerna bootstrap // Installs dependencies & links all local dependencies together
