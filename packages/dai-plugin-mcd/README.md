@@ -1,7 +1,7 @@
-# dai-plugin-mcd
+# tao-plugin-mct
 
-A [Dai.js](https://github.com/makerdao/dai.js) plugin for interacting with the
-multi-collateral dai contracts
+A [Tao.js](https://github.com/cleancoindev/tao.js) plugin for interacting with the
+multi-collateral tao contracts
 
 ### Example usage
 
@@ -50,11 +50,11 @@ In this plugin, the `getAnnualStabilityFee()` and get `getAnnualBaseRate`
 functions convert those values to return a decimal representation of the yearly
 rates (e.g. `0.015` and `0.01`).
 
-Run the tests from the top-level dai.js directory.
+Run the tests from the top-level tao.js directory.
 
 ### Local Development
 
 Due to the way that Babel7 handles transpilation it is not possible to use `yarn link` when locally developing this plugin, and importing it. We recommend using [yalc](https://github.com/whitecolor/yalc) instead. We've also found that a watcher tool called [sane](https://github.com/amasad/sane) is helpful.
 
 Steps to Run:
-1. In this directory run ```sane "yalc publish && cd [INSERT THE DIRECTORY OF THE PROJECT THAT IS IMPORTING THIS PLUGIN] && yalc link @makerdao/dai-plugin-mcd" src --wait=3 ```
+1. In this directory run ```sane "yalc publish && cd [INSERT THE DIRECTORY OF THE PROJECT THAT IS IMPORTING THIS PLUGIN] && yalc link @cleancoindev/tao-plugin-mct" src --wait=3 ```
