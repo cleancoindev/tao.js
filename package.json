@@ -1,7 +1,7 @@
 {
-  "name": "dai-monorepo",
+  "name": "tao-monorepo",
   "version": "0.1.0",
-  "repository": "git@github.com:makerdao/dai.js.git",
+  "repository": "git@github.com:cleancoindev/tao.js.git",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "yarn testchain --ci yarn lerna run --concurrency 1 test",
     "test:integration": "yarn testchain --ci yarn lerna --concurrency 1 run test:integration",
     "test:build": "yarn testchain --ci yarn lerna run --concurrency 1 test:build",
-    "test:logs": "tail -f ./node_modules/@makerdao/testchain/var/ganache.out | grep -v 'eth_blockNumber'"
+    "test:logs": "tail -f ./node_modules/@cleancoindev/testchain/var/ganache.out | grep -v 'eth_blockNumber'"
   },
   "husky": {
     "hooks": {
@@ -46,7 +46,7 @@
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-env": "^7.4.5",
-    "@makerdao/testchain": "^1.0.7",
+    "@cleancoindev/testchain": "^1.0.7",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.5",
